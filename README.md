@@ -10,3 +10,6 @@ Phân tích thiết kế
 ### YourToday.fig
 [here](YourToday.fig)
 Thiết kế giao diện bằng Figma
+
+----------------------------------------------
+**Update:** Today and Setting tab available only
