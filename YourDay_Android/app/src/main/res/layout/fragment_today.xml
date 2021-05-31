@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <!--  header  -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="134sp"
+        android:background="@color/background_header_tab"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/headerBase"
+        android:translationZ="0sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Today"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="18sp"
+        android:layout_marginTop="51sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:textStyle="normal"
+        app:layout_constraintRight_toLeftOf="@+id/total_task_txt"
+        app:layout_constraintBottom_toBottomOf="@+id/total_task_txt"
+        android:id="@+id/total_task_number"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" total tasks"
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:textStyle="normal"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/remain_task_txt"
+        android:layout_marginRight="10sp"
+        android:id="@+id/total_task_txt"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:textStyle="normal"
+        app:layout_constraintRight_toLeftOf="@+id/remain_task_txt"
+        app:layout_constraintBottom_toBottomOf="@+id/remain_task_txt"
+        android:id="@+id/remain_task_number"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" remains tasks"
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:textStyle="normal"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/search_today_tab"
+        android:layout_marginRight="10sp"
+        android:id="@+id/remain_task_txt"
+        android:layout_marginBottom="5sp"
+        />
+
+
+    <!-- task list-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        app:layout_constraintTop_toBottomOf="@+id/view_add_component"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/today_tab_rcv_taskList"
+        android:paddingLeft="15sp"
+        android:paddingRight="15sp"
+        />
+
+
+    <!--  view ben duoi search  -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:background="@drawable/background_add_component"
+        app:layout_constraintTop_toBottomOf="@+id/headerBase"
+        android:id="@+id/view_add_component"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_add"
+        app:layout_constraintBottom_toBottomOf="@+id/view_add_component"
+        android:layout_marginBottom="7sp"
+        app:layout_constraintLeft_toLeftOf="@+id/view_add_component"
+        android:layout_marginLeft="16sp"
+        android:id="@+id/today_tab_add_icon"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngày thi"
+        android:textColor="@color/today_tab_name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/today_tab_add_icon"
+        app:layout_constraintLeft_toLeftOf="@+id/view_add_component"
+        app:layout_constraintRight_toRightOf="@+id/view_add_component"
+        android:id="@+id/todayTab_dateName"
+    />
+    <View
+        android:layout_width="21sp"
+        android:layout_height="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/today_tab_more_icon"
+        android:id="@+id/todayTab_moreView"
+        app:layout_constraintRight_toRightOf="@+id/today_tab_more_icon"
+
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_more"
+        app:layout_constraintBottom_toBottomOf="@+id/view_add_component"
+        android:layout_marginBottom="7sp"
+        app:layout_constraintRight_toRightOf="@+id/view_add_component"
+        android:layout_marginRight="16sp"
+        android:id="@+id/today_tab_more_icon"
+        />
+
+
+    <!-- search view -->
+    <androidx.appcompat.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/headerBase"
+        app:layout_constraintBottom_toBottomOf="@+id/headerBase"
+        android:background="@drawable/background_search"
+        app:iconifiedByDefault="false"
+        app:searchIcon="@drawable/icon_search"
+        app:queryBackground="@null"
+        android:id="@+id/search_today_tab"
+        app:queryHint="Search name task..."
+        >
+    </androidx.appcompat.widget.SearchView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_filter_search"
+        android:id="@+id/filter_search_today_tab"
+        app:layout_constraintTop_toTopOf="@+id/search_today_tab"
+        app:layout_constraintBottom_toBottomOf="@+id/search_today_tab"
+        app:layout_constraintRight_toRightOf="@+id/search_today_tab"
+        android:layout_marginRight="16sp"
+        android:background="@color/white"
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

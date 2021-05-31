@@ -1,0 +1,67 @@
+người dùng {
+	uid{
+		name,
+		gmail,
+		time 1 ngày
+	}
+}
+công việc{
+	uid{
+		ngày{
+			id{
+				tên,
+				note,
+				startTime,
+				stopTime,
+				loại(nếu có),
+				realStartTime,   //(nếu có)
+				realStopTime //(nếu có)
+			}
+		}
+	}
+}
+ngày{
+	uid{
+		id{
+			ngày,
+			tên
+		}
+	}
+	
+}
+công việc đã lưu {
+	uid{
+		công việc{
+			id{
+				tên,
+				note,
+				startTime,
+				stopTime,
+			}
+		}
+		ngày{
+			id{
+				tên,
+				note,
+				startTime,
+				stopTime,
+			}
+		}
+	}
+}
+ngày đã lưu{
+	uid{
+		id{
+			ngày,
+			tên
+		}
+	}
+}
+thống kê{
+	uid{
+		ngày{
+			hoàn thành,
+			bỏ qua
+		}
+	}
+}

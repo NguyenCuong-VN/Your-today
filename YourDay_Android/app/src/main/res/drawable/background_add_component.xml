@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+    <item android:top="-2sp" android:left="-2sp" android:right="-2sp">
+        <shape android:shape="rectangle">
+            <stroke android:color="@color/background_search_stroke" android:width="1sp" />
+            <solid android:color="@color/background_name_view" />
+        </shape>
+    </item>
+</layer-list>

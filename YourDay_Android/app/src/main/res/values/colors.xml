@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="textLoginButton">#243443</color>
+    <color name="icon_selected_bottom_navigation">#7203FF</color>
+    <color name="icon_unselected_bottom_navigation">#837295</color>
+    <color name="background_header_tab">#051C3F</color>
+    <color name="background_search_stroke">#D9D0E3</color>
+    <color name="background_name_view">#EBF8F8F8</color>
+    <color name="today_tab_name">#7203FF</color>
+    <color name="today_tab_complete_card">#909295</color>
+    <color name="today_tab_ignore_card">#C25050</color>
+    <color name="today_tab_drop_card">#FFB800</color>
+    <color name="today_tab_running_card">#0044AB</color>
+    <color name="today_tab_comming_card">#00CC96</color>
+    <color name="background_alert">#BF15202F</color>
+    <color name="lineView">#E0E9F8</color>
+    <color name="textAlert">#9586A8</color>
+    <color name="selectedField">#7618ED</color>
+    <color name="unselectedField">#D9D0E3</color>
+    <color name="button_below_alert">#5EA7FF</color>
+    <color name="percent">#A6ACBE</color>
+    <color name="name_account">#25282B</color>
+    <color name="gmail_account">#A0A4A8</color>
+    <color name="setting_line">#1E3658</color>
+</resources>

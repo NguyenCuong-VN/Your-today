@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tabToday_cardTask_moreMenu_Start"
+        android:title="Start"
+        />
+    <item
+        android:id="@+id/tabToday_cardTask_moreMenu_Stop"
+        android:title="Stop"
+        android:enabled="false"
+        />
+    <item
+        android:id="@+id/tabToday_cardTask_moreMenu_Ignore"
+        android:title="Ignore"
+        />
+    <item
+        android:id="@+id/tabToday_cardTask_moreMenu_Drop"
+        android:title="Drop"
+        android:enabled="false"
+        />
+    <item
+        android:id="@+id/tabToday_cardTask_moreMenu_Save_task"
+        android:title="Save task"
+        />
+    <item
+        android:id="@+id/tabToday_cardTask_moreMenu_Delete"
+        android:title="Delete"
+        />
+
+</menu>

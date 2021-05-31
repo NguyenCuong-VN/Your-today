@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Your day</string>
+    <string name="splat_name">Your Today</string>
+    <string name="string_login1">Keep your tasks in one place</string>
+    <string name="string_login2">Keep your tasks in one easy place. We can save your time</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="sign_in_with_facebook">Sign in with Facebook</string>
+    <string name="coming_status">Sắp tới</string>
+    <string name="complete_status">Hoàn thành</string>
+    <string name="ignore_status">Bỏ qua</string>
+    <string name="drop_status">Drop</string>
+    <string name="running_status">Đang tiến hành</string>
+
+</resources>

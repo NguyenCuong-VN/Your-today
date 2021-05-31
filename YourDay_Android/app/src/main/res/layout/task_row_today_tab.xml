@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:focusable="true"
+    android:clickable="true"
+    android:checkable="false"
+    android:layout_marginBottom="6sp"
+    app:cardCornerRadius="8sp"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8sp"
+        android:background="@color/today_tab_complete_card"
+        android:id="@+id/todayTab_cardTask_card"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="7sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:id="@+id/content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Học PTTK"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:id="@+id/todayTab_cardTask_nameTask"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thiết kế usecase chi tiết..."
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:textStyle="normal"
+                android:id="@+id/todayTab_cardTask_noteTask"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1:00 - 2:30"
+                    android:textSize="14sp"
+                    android:textColor="@color/white"
+                    android:textStyle="normal"
+                    android:id="@+id/todayTab_cardTask_timeTask"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/to_time_icon"
+                    android:layout_marginLeft="1sp"
+                    android:layout_marginRight="1sp"
+                    android:id="@+id/todayTab_cardTask_toRealTime"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1:00 - 2:33"
+                    android:textSize="14sp"
+                    android:textColor="@color/white"
+                    android:textStyle="normal"
+                    android:id="@+id/todayTab_cardTask_realTimeTask"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_more_card"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/content"
+            android:id="@+id/todayTab_cardTask_moreIcon"
+            />
+        <View
+            android:layout_width="21sp"
+            android:layout_height="24sp"
+            app:layout_constraintRight_toRightOf="@+id/todayTab_cardTask_moreIcon"
+            android:id="@+id/todayTab_cardTask_moreIconView"
+            app:layout_constraintTop_toTopOf="@+id/todayTab_cardTask_moreIcon"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hoàn thành"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="@+id/content"
+            app:layout_constraintRight_toRightOf="@+id/todayTab_cardTask_moreIcon"
+            android:id="@+id/todayTab_cardTask_statusTask"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

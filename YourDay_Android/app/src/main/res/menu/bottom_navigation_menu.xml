@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/page_today"
+        android:enabled="true"
+        android:icon="@drawable/icon_today_tab"
+        android:title="Today"/>
+<!--    <item-->
+<!--        android:id="@+id/page_future"-->
+<!--        android:enabled="true"-->
+<!--        android:icon="@drawable/icon_future_tab"-->
+<!--        android:title="Future"/>-->
+<!--    <item-->
+<!--        android:id="@+id/page_history"-->
+<!--        android:enabled="true"-->
+<!--        android:icon="@drawable/icon_history_tab"-->
+<!--        android:title="History"/>-->
+<!--    <item-->
+<!--        android:id="@+id/page_save"-->
+<!--        android:enabled="true"-->
+<!--        android:icon="@drawable/icon_save_tab"-->
+<!--        android:title="Save"/>-->
+    <item
+        android:id="@+id/page_settings"
+        android:enabled="true"
+        android:icon="@drawable/icon_settings_tab"
+        android:title="Settings"/>
+</menu>
