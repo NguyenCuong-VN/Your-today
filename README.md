@@ -8,8 +8,21 @@ cấu trúc database Firebase
 [here](PTTK.docx)
 Phân tích thiết kế 
 ### YourToday.fig
-[here](YourToday.fig)
+[here](Your%20Today.fig)
 Thiết kế giao diện bằng Figma
 
 ----------------------------------------------
-**Update:** Today and Setting tab available only
+**Update:** 
+Today and Setting tab available only
+
+**Feature:**
+- List all task in a day
+- Filter task by status task
+- Search with name task
+- Sort task for time start
+- Start/stop/drop/ignore/delete/save task 
+- Add/edit task in day
+- Notification when start time coming
+- End day, statistic a day (number of task by status)
+- Set start time, stop time in a day
+- Delete history
