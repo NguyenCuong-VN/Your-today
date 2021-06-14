@@ -24,7 +24,7 @@ Thiết kế giao diện bằng Figma
 - Start/stop/drop/ignore/save task 
 - Add/edit/detele task in day
 - Notification when start time coming
-- End day, statistic a day (number of task by status)
+- End day, statistic a day 
 - Set start time, stop time in a day
 - Delete history
 - Save all data to Firebase
