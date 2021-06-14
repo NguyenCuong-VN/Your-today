@@ -20,7 +20,7 @@ Thiết kế giao diện bằng Figma
 - List all task in a day
 - Filter task by status task
 - Search with name task
-- Sort task for time start
+- Auto sort task for time start
 - Start/stop/drop/ignore/save task 
 - Add/edit/detele task in day
 - Notification when start time coming
