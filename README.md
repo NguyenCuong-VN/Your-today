@@ -29,9 +29,6 @@ Thiết kế giao diện bằng Figma
 - Delete history
 - Save all data to Firebase
 
-**Author:** <br>
-> Nguyễn Mạnh Cường - B17DCAT029
-
 **Screen shot tabs:**<br>
 <img src="https://user-images.githubusercontent.com/57400150/121445476-b94f9580-c9bb-11eb-812a-c6fc23ffa867.png" alt="today tab" width="300"/>
 <img src="https://user-images.githubusercontent.com/57400150/121446341-81495200-c9bd-11eb-8c6b-81738bde3f3f.png" alt="detail task" width="300"/>
