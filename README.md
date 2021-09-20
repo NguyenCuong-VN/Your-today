@@ -12,8 +12,8 @@ Phân tích thiết kế
 Thiết kế giao diện bằng Figma
 
 ----------------------------------------------
-**Update:** <br>
-> *Today and Setting tab available only*
+**Update:** `Stopped!`<br>
+> *Today and Setting tab available only* 
 
 **Feature:**
 - Login with Facebook, Google
